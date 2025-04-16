@@ -17,7 +17,9 @@ const DataTo = () => {
   return (
     <>
       <h1>user details</h1>
-      <div>{user.id}</div>
+      <span>{user.id}</span>
+      <span>  {user.name}</span>
+      <span>   {user.age}</span>
     </>
   );
 };
